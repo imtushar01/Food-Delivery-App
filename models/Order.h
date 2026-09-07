@@ -37,7 +37,7 @@ public:
         delete paymentStrategy;
     }
 
-    bool processPayement() {
+    bool processPayment() {
         if (paymentStrategy) {
             paymentStrategy->pay(total);
             return true;
